@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.container .header,
+.container .footer {
+  background-color: #2c3e50;
+  color: #DDD;
+  padding: 10px 0;
+  text-align: center;
+}
+.container .content {
+  margin: 20px 0;
+}/*# sourceMappingURL=Email.css.map */

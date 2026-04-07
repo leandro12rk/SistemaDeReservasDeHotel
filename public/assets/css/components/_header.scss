@@ -1,0 +1,35 @@
+.navbar {
+  position: sticky !important;
+  top: 0;
+  z-index: 10000;
+  background-color: $background_color;
+  a {
+    color: #ddd;
+    text-decoration: none;
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+  .navbar-nav {
+    .nav-link {
+      &.active {
+        color: lighten(#ddd, 30%);
+        font-weight: 400;
+        position: relative;
+        &::after {
+          content: "";
+          width: 100%;
+          height: 1px;
+          background-color: lighten(#ddd, 30%);
+          position: absolute;
+          bottom: 0;
+          left: 0;
+        }
+      }
+      &:hover,
+      &:focus {
+        color: lighten(#ddd, 20%);
+      }
+    }
+  }
+}

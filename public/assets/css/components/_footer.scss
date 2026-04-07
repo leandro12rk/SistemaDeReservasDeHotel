@@ -1,0 +1,17 @@
+.footer {
+  background-color: $background_color;
+
+  .container {
+    p {
+      color: #dddd;
+      a {
+        text-decoration: none;
+        &:hover,
+        &:focus {
+          //color:$secondary_color!important;
+          color: aqua;
+        }
+      }
+    }
+  }
+}

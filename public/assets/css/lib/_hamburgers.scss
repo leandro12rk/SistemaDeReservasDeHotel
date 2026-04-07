@@ -1,0 +1,33 @@
+//@import '../variables';
+$hamburger-layer-color: #ddd !default;
+
+.hamburger {
+  &.hamburger--arrowalt {
+    transform: rotate(180deg);
+    &.is-active {
+      .hamburger-box {
+        .hamburger-inner {
+          &::after {
+            bottom: 4px;
+          }
+          &::before {
+            top: 2px;
+          }
+        }
+      }
+    }
+  }
+  .hamburger-box {
+    .hamburger-inner {
+      width: 30px;
+      &::after {
+        width: 30px;
+      }
+      &::before {
+        width: 30px;
+      }
+    }
+  }
+}
+
+@import "../../../../public/Lib/hamburgers/hamburgers.scss";

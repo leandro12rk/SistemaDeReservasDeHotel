@@ -1,0 +1,17 @@
+.navbar {
+  &.navbar-admin{
+    padding: 0.5rem;
+    padding-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    .header-name{
+      flex: 1;
+    }
+    #formLogout{
+      button{
+        width: 100%;
+      }
+    }
+  }
+
+}

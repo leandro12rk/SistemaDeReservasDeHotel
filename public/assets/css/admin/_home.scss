@@ -1,0 +1,56 @@
+#home_admin {
+  .info-admin {
+    gap: 1rem;
+    padding: 1rem;
+    @media (min-width: $min-width-lg) {
+      padding: 0;
+    }
+    & > div {
+      width: 25rem;
+      margin-top: 1rem;
+      .card {
+        border: none;
+        .card-header {
+          .icon {
+            position: absolute;
+            top: -1rem;
+            background-color: $color_pink;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            span {
+              color: #ddd;
+            }
+          }
+          .text {
+            p {
+              color: ligthen(#000, 25%);
+            }
+          }
+        }
+        .card-footer {
+          p {
+            & > span {
+              display: flex;
+            }
+          }
+        }
+      }
+    }
+  }
+  .charts {
+    padding: 1rem;
+    @media (min-width: $min-width-lg) {
+      padding: 0;
+    }
+    & > .row {
+      gap: 1rem;
+      justify-content: center;
+      margin-top: 3rem;
+      .table-container {
+        @media (min-width: $min-width-md) {
+          min-width: 40rem !important;
+        }
+      }
+    }
+  }
+}

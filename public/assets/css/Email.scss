@@ -1,0 +1,20 @@
+@import "var";
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  .header,
+  .footer {
+    background-color: $primary_color;
+    color: #DDD;
+    padding: 10px 0;
+    text-align: center;
+  }
+  .content {
+    margin: 20px 0;
+  }
+}

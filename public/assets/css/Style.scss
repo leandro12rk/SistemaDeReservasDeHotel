@@ -1,0 +1,40 @@
+@import "var";
+@import "../../Lib/fontawesome/css/fontawesome.css";
+@import "../../Lib/fontawesome/css/all.css";
+@import "./lib/hamburgers";
+@import "index";
+
+@import "template/home";
+@import "template/error_page_404";
+@import "template/contacto";
+@import "template/reservas";
+@import "template/container_user_reservas";
+@import "components/header";
+@import "components/footer";
+@import "components/carousel";
+
+// administrator styles
+@import "admin/home";
+@import "admin/header_admin";
+@import "admin/reserva";
+
+
+
+/*
+Source mixins
+@media (min-width: 576px) {
+  // For small devices and up
+}
+
+@media (min-width: 768px) {
+  // For medium devices and up
+}
+
+@media (min-width: 992px) {
+  // For large devices and up
+}
+
+@media (min-width: 1200px) {
+  // For extra large devices and up
+}
+*/

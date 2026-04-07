@@ -1,0 +1,10 @@
+DELIMITER //
+
+CREATE PROCEDURE 11_hotel_dba_sp_caracteristica(
+
+)
+BEGIN 
+    SELECT * FROM CARACTERISTICA;
+END //
+
+DELIMITER ;

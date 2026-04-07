@@ -1,0 +1,133 @@
+// Global Styles
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $font-stack;
+  &::-webkit-scrollbar {
+    //ocultar el scrool bar
+    display: none;
+  }
+}
+h1 {
+  color: $color_red;
+}
+
+a {
+  text-decoration: none;
+}
+.item-table {
+  cursor: default;
+  &.modal-select {
+    cursor: pointer;
+  }
+}
+.btn-primary {
+  background-color: $color_pink;
+}
+.modal-dialog {
+  .modal-content {
+    //box-shadow: 1px 2px 18px 2px rgba(0.5, $background_color);
+    border: none !important;
+    margin-top: 1.5rem !important;
+  }
+}
+.form-control,
+.form-select {
+  &:focus,
+  &:hover {
+    box-shadow: none !important;
+  }
+}
+
+.form-floating {
+  label {
+    &::after {
+      background-color: transparent !important;
+    }
+  }
+}
+textarea {
+  min-height: 10rem !important;
+}
+.page-link {
+  &:focus {
+    box-shadow: none !important;
+  }
+}
+.img-container-admin {
+  .img-fluid {
+    height: 15rem !important;
+  }
+}
+.container-admin {
+  height: 100vh;
+}
+.body {
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  padding: 0;
+  padding-bottom: 2rem;
+  &::-webkit-scrollbar {
+    //ocultar el scrool bar
+    display: none;
+  }
+}
+.header-admin {
+  background-color: $background-color;
+  padding: 1rem;
+  h2 {
+    color: #ddd;
+  }
+}
+.btn,
+.form-check-input {
+  border: none;
+  &:focus,
+  &:hover {
+    box-shadow: none !important;
+  }
+}
+.offcanvas {
+  background-color: $background-color !important;
+  max-width: 90% !important;
+  .offcanvas-header {
+    a {
+      flex: 1;
+    }
+  }
+  .offcanvas-body {
+    display: flex;
+    flex-direction: column;
+    .navbar-nav {
+      flex: 1;
+      gap: 1rem;
+    }
+  }
+}
+
+.container-acciones {
+  @media (max-width: $max-width-md) {
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+  }
+}
+
+.accordion {
+  .accordion-item {
+    border: none !important;
+    background-color: transparent !important;
+    .accordion-header {
+      .accordion-button {
+        &:hover,
+        &:focus {
+          box-shadow: none;
+        }
+      }
+    }
+  }
+}
