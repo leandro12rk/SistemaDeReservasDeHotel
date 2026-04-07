@@ -7,7 +7,7 @@
   GitHub: [https://github.com/03gabriel12](https://github.com/03gabriel12)
 
 - **Nombre del Integrante 2**: [Jorshua Fray]  
-  GitHub: [https://github.com/03gabriel12](https://github.com/joshDev27)
+  GitHub: [https://github.com/joshDev27](https://github.com/joshDev27)
 
 
 
